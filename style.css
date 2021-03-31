@@ -376,8 +376,25 @@ footer .footer-menu {
 }
 
 @media (min-width: 376px) {
+  header {
+    height: 70vh;
+  }
   .container {
     max-width: 1000px;
+  }
+  .sec-one-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sec-img-two img {
+    width: 70%;
+    top: -18rem;
+  }
+  .sec-three-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -429,7 +446,7 @@ footer .footer-menu {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0;
+    margin: 0 0 0 1rem;
   }
   .main-nav .nav-item {
     font-family: "Ubuntu";
@@ -462,7 +479,7 @@ footer .footer-menu {
   .main-nav .nav-link {
     color: white;
     padding-right: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .main-nav .sub-nav {
     background: white;
@@ -497,7 +514,7 @@ footer .footer-menu {
   }
   .user-buttons {
     margin: auto 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .user-buttons .login {
     text-decoration: none;
@@ -540,6 +557,7 @@ footer .footer-menu {
   }
   .cta-buttons .btn {
     font-weight: 500;
+    font-size: 0.9rem;
     padding: 0.7rem 1rem;
     border-radius: 2rem;
     margin: 0 0.6rem;
@@ -568,10 +586,10 @@ footer .footer-menu {
     max-width: 60%;
   }
   .sec-img-two {
-    max-width: 50%;
+    max-width: 60%;
   }
   .sec-img-two img {
-    top: -150%;
+    top: -130%;
     left: 50%;
   }
   .sec-three-content {

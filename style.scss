@@ -324,11 +324,22 @@ footer {
     }
 }
 @media (min-width: 376px) {
-
+    header {
+        height: 70vh;
+    }
     .container {
         max-width: 1000px;
     }
-    
+    .sec-one-content {
+        justify-content: center;
+    }
+    .sec-img-two img {
+        width: 70%;
+        top: -18rem;
+    }
+    .sec-three-content {
+        justify-content: center;
+    }
     
 }
 @media (min-width: 786px){
@@ -364,7 +375,8 @@ footer {
         border: none;
         align-items: center;
         
-        margin: 0;
+        margin: 0 0 0 1rem;
+
 
         .nav-item {
             font-family: "Ubuntu";
@@ -397,7 +409,7 @@ footer {
             
             color: $text-white;
             padding-right: 0.5rem;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
         .sub-nav {
             background: $text-white;
@@ -432,7 +444,7 @@ footer {
     }
     .user-buttons {
         margin: auto 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
         
         .login {
             text-decoration: none;
@@ -442,6 +454,7 @@ footer {
             margin-right: 1rem;
             font-family: "Ubuntu";
             font-weight: 500;
+            
         }
         .signup {
             display: inline-block;
@@ -481,6 +494,7 @@ footer {
     }
     .cta-buttons .btn{
         font-weight: 500;
+        font-size: 0.9rem;
         padding: 0.7rem 1rem;
         border-radius: 2rem;
         margin: 0 0.6rem;
@@ -509,9 +523,9 @@ footer {
         }
     }
     .sec-img-two {
-        max-width: 50%;
+        max-width: 60%;
          & img {
-             top: -150%;
+             top: -130%;
              left: 50%;
          }
     }

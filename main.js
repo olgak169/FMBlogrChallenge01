@@ -1,7 +1,4 @@
-let helper = document.getElementById('width')
-window.addEventListener('resize', () => {
-helper.innerHTML = window.innerWidth;
-})
+
 let close_btn = document.querySelector('.menu-close')
 let open_btn = document.querySelector('.menu-open')
 let nav = document.querySelector('nav')
